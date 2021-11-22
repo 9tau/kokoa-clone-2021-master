@@ -1,0 +1,35 @@
+body {
+  height: 50vh;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  height: 230px;
+  width: 230px;
+  border: 2px solid black;
+}
+
+.innerbox_1 {
+  margin: 10px 10px;
+  background-color: teal;
+  height: 50px;
+  width: 50px;
+  border: solid white;
+}
+
+.innerbox_2 {
+  margin: 10px 10px;
+  background-color: teal;
+  height: 48px;
+  width: 189px;
+  border: dashed white;
+}

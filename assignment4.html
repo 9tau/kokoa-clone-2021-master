@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment4</title>
+  </head>
+
+  <body>
+   <form>
+    <h1>Create An Account</h1>
+    <div>
+      <label for="firstname">First name</label>
+      <input id="firstname" type="text" required placeholder="First name" />
+    </div>
+    <div>
+      <label for="lastname">Last name</label>
+      <input id="lastname" type="text" required placeholder="Last name" />
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input id="email" type="text" required placeholder="E-mail" />
+    </div>
+    <div>
+      <label for="username">Username</label>
+      <input id="username" type="text" required placeholder="Username" />
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" type="text" required placeholder="Password" minlength="10"/>
+    </div>
+    <div>
+      <label for="birthdate">Birth date</label>
+      <input id="birthdate" type="date" />
+    </div>
+
+    <div>
+        <label for = "howhappyareyou">How happy are you?</label>
+        <input id = "howhappyareyou", type = "range", min = "0", max = "100", step = "10", list = "steplist">
+        <datalist id = "steplist">
+           <option>0</option>
+           <option>10</option>
+           <option>20</option>
+           <option>30</option>
+           <option>40</option>
+           <option>50</option>
+           <option>60</option>
+           <option>70</option>
+           <option>80</option>
+           <option>90</option>
+           <option>100</option>
+    </div>
+
+     <div>
+     <label for = "color">What is your fav.color?</label>
+     <input id = "color", type = "color"/>
+     </div>
+
+     <div>
+        <input type = "submit" , value = "Create account"/>
+     </div>
+    </form>
+  </body>
+</html>
